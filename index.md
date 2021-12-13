@@ -16,10 +16,10 @@ Const Keyword With Pointer Variables:
    You can modify pointer itself but the object pointed to by pointer shall not be modified.
    used to make string or an array of elements unchangeable
      ~~~
-            const int x=1 ;
+            const int x=1 ;  
             const int* ptr = &x;  
-            *ptr = 5; // error
-            ptr++;    // right
+            *ptr = 5; // error  
+            ptr++;    // right  
      ~~~
 
 **2) const pointer pointing to a value**    
@@ -27,11 +27,11 @@ Const Keyword With Pointer Variables:
    data_type* const var_name;   
    You are not allowed to modify the pointer but the object pointed to can be modified.
     ~~~
-            int x = 1;
+            int x = 1;  
             int *const ptr = &x;  
-            *ptr = 5; // right
-            ptr++;    // error  
-   
+            *ptr = 5; // right  
+            ptr++;    // error   
+   ~~~
 
 **3) const pointer pointing to a const variable**  
    Syntax:  
