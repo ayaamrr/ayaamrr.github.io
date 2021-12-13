@@ -4,17 +4,17 @@ with the object of a class it prevents that specific object/method()/variable to
 
 
 -constant variables: need to be initialized at the time of declaration as the const variable cannot remain un-initialized
-ex "const int x=3 ;"
+ex *const int x=3 ;*
 
 
 
 Const Keyword With Pointer Variables:
 
 1) pointer pointing to a const value
-   Syntax: "const data_type* var_name;"
+   Syntax: *const data_type* var_name;*
    You can modify pointer itself but the object pointed to by pointer shall not be modified.
    used to make string or an array of elements unchangeable
-       ~~~
+     ~~~
             const int x=1 ;
             const int* ptr = &x;  
             *ptr = 5; // error
@@ -32,7 +32,7 @@ Const Keyword With Pointer Variables:
   ~~~
 
 3) const pointer pointing to a const variable
-   Syntax: "const data_type* const var_name;"
+   Syntax: *const data_type* const var_name;*
    in this case no change can happen to the pointer or the variable.
 
 
@@ -45,7 +45,7 @@ A const member function can be called by any type of object while non-const func
 
 -the const nature of any object can be changed by const casting
  The syntax :
- "const_cast<type name>(expression) "
+ *const_cast<type name>(expression)* 
 
 
 
@@ -89,7 +89,7 @@ ex -> Assume if A = 60; and B = 13; now in binary format they will be as follows
 
 
 
-#Refrences:
+##Refrences:
 
 
 https://www.ibm.com/docs/en/i/7.2?topic=expressions-address-operator
