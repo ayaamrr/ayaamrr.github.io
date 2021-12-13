@@ -29,7 +29,7 @@ const int x=3 ;
    Syntax:  
    data_type* const var_name;   
    You are not allowed to modify the pointer but the object pointed to can be modified.  
-    ~~~
+    ~~~  
             int x = 1;  
             int *const ptr = &x;  
             *ptr = 5; // right  
