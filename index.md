@@ -29,7 +29,7 @@ Const Keyword With Pointer Variables:
             int *const ptr = &x;  
             *ptr = 5; // right
             ptr++;    // error  
-  ~~~
+   ~~~
 
 3) const pointer pointing to a const variable
    Syntax: *const data_type* const var_name;*
@@ -89,7 +89,7 @@ ex -> Assume if A = 60; and B = 13; now in binary format they will be as follows
 
 
 
-##Refrences:
+##Refrences:##
 
 
 https://www.ibm.com/docs/en/i/7.2?topic=expressions-address-operator
