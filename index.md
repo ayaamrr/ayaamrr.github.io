@@ -51,7 +51,7 @@ A const member function can be called by any type of object while non-const func
 
 
 
-**The & operator **
+**The & operator**
 
 -The ampersand symbol & is used in C++ as a reference declarator .
 -Pointer operator & returns the address of a variable. For example &a; will give actual address of the variable.
@@ -71,9 +71,9 @@ A const member function can be called by any type of object while non-const func
  & >> Binary AND Operator copies a bit to the result if it exists in both operands.
  
 ex -> Assume if A = 60; and B = 13; now in binary format they will be as follows −
-      A = 0011 1100
-      B = 0000 1101
-      A&B = 0000 1100
+ A = 0011 1100
+ B = 0000 1101
+ A&B = 0000 1100
 
 
 
@@ -89,7 +89,7 @@ ex -> Assume if A = 60; and B = 13; now in binary format they will be as follows
 
 
 
-##Refrences:##
+## Refrences:
 
 
 https://www.ibm.com/docs/en/i/7.2?topic=expressions-address-operator
