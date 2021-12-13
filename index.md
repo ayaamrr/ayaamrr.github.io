@@ -33,7 +33,7 @@ Const Keyword With Pointer Variables:
             int *const ptr = &x;  
             *ptr = 5; // right  
             ptr++;    // error   
-   ~~~  
+            ~~~  
 
 **3) const pointer pointing to a const variable**  
    Syntax:  
