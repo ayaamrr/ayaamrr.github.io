@@ -4,11 +4,12 @@ with the object of a class it prevents that specific object/method()/variable to
 
 
 -constant variables: need to be initialized at the time of declaration as the const variable cannot remain un-initialized  
-ex *const int x=3 ;*
+~~~  
+const int x=3 ;
+~~~   
 
-
-
-Const Keyword With Pointer Variables:
+   
+### Const Keyword With Pointer Variables:
 
 **1) pointer pointing to a const value**    
    Syntax:  
@@ -28,7 +29,7 @@ Const Keyword With Pointer Variables:
    Syntax:  
    data_type* const var_name;   
    You are not allowed to modify the pointer but the object pointed to can be modified.  
-    ~~~
+    ~~~  
             int x = 1;  
             int *const ptr = &x;  
             *ptr = 5; // right  
